@@ -1,4 +1,4 @@
-*{
+#{
     margin: 0;
     padding: 0;
 }
@@ -24,5 +24,22 @@ nav{
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    box-shadow: 2px 2px 12 px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    padding: 10px 15px;
+    color:rgb(239, 184, 45);
+    font-size: 12px;
     
 }
