@@ -48,7 +48,7 @@ nav{
 .sitename{
     font-size: 25px;
     font-weight: bold;
-    color:deeppink;
+    color:rgb(249, 142, 199);
     margin-left: 50px;
     
 }
@@ -57,7 +57,7 @@ font-weight: bold;
 color: rgb(165, 159, 145);
 }
 .menu li a:hover{
-    background-color: #29292929;
+    background-color: #6ad8dcd5;
     font-weight: 700;
-    transition: all ease 0.4s;
+    transition: all ease 0.7s;
 }
