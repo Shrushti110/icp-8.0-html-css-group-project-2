@@ -95,5 +95,6 @@ color: rgb(165, 159, 145);
     border: solid 2px goldenrod;
 }
 .downlaod:hover{
-    background-color: rgb(78, 157, 184);
+    background-color: rgb(144, 171, 180);
+    transition: all ease 0.4s;
 }
