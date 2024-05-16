@@ -98,3 +98,17 @@ color: rgb(165, 159, 145);
     background-color: rgb(144, 171, 180);
     transition: all ease 0.4s;
 }
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: rgb(185, 138, 218);
+}
+.heading span{
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 252, 249);
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+}
