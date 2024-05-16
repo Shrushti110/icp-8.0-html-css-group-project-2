@@ -88,4 +88,7 @@ color: rgb(165, 159, 145);
     background-color:rgb(216, 94, 94);
     color:beige;
     border-radius: 4px;
+    font-size: 20px;
+    border:none;
+    border: solid 3px goldenrod;
 }
