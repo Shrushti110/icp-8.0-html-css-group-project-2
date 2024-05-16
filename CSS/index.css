@@ -1,4 +1,4 @@
-#{
+*{
     margin: 0;
     padding: 0;
 }
@@ -43,14 +43,12 @@ nav{
     padding: 10px 15px;
     color:rgb(219, 167, 38);
     font-size: 16px;
-
 }
 .sitename{
     font-size: 25px;
     font-weight: bold;
     color:rgb(249, 142, 199);
     margin-left: 50px;
-    
 }
 .logo{font-size: 25px;
 font-weight: bold;
@@ -76,8 +74,18 @@ color: rgb(165, 159, 145);
     font-size: 60px;
     margin: 0;
     letter-spacing: 3px;
-    color: cadetblue;
+    color: rgb(68, 112, 114);
 }
  .ideal span{
     color: rgb(227, 153, 3);
+}
+.downlaod{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(216, 94, 94);
+    color:beige;
+    border-radius: 4px;
 }
