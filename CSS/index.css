@@ -11,10 +11,18 @@ a{
 .main{
     width: 100%;
     height: 100vh;
-    background-color: beige;
+    background-color: white;
     position: relative;
-    background-image:url(../Images/bookstore.jpg);
+    background-image:url(../Images/book.jpg);
     background-repeat: no-repeat;
     background-size: 600px;
     background-position: right bottom;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    
 }
