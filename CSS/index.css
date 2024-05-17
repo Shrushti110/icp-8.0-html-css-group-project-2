@@ -81,7 +81,7 @@ nav{
     color: rgb(68, 112, 114);
 }
  .ideal span{
-    color: rgb(227, 153, 3);
+    color: rgb(197, 139, 23);
 }
 .downlaod{
     width: 200px;
@@ -113,4 +113,25 @@ nav{
     display: inline-block;
     padding: .5rem 1rem;
     border-radius: 6px;
+}
+.feature .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-area: 1.5rem;
+}
+.feature .box-container .box{
+    padding: 3rem 2rem;
+    background-color: blanchedalmond;
+    outline: .1rem solid rgb(213, 235, 227);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: 0.5rem 1rem black;
+}
+.feature .box-container .box:hover{
+    outline: .2rem solid black;
+    outline-offset: 0rem;
+}
+.feature .box-container .box img{
+    margin: 1rem  0;
+    height: 15px;
 }
