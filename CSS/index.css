@@ -15,8 +15,8 @@ a{
     position: relative;
     background-image:url(../Images/online.png);
     background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: right center;
+    background-size: 1000px;
+    background-position: right bottom;
 }
 nav{
     display: flex;
@@ -57,12 +57,11 @@ nav{
     font-style: italic;
 }
 .menu li a:hover{
-    background-color: #c6dbdd;
-    font-weight: 500;
-    border-radius: 8px;
-    padding: 2px;
-    border: solid 1px rgb(252, 149, 201);
-    transition: all ease 0.7s;
+    background-color: #196e63;
+    font-weight: 700;
+    border-radius: 10px;
+    border: solid 1px rgb(191, 202, 76);
+    transition: all ease 0.4s;
 }
 .ideal{
     width: 650px;
