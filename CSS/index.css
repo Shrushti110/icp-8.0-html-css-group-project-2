@@ -116,11 +116,11 @@ nav{
 }
 .feature .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-area: 1.5rem;
 }
 .feature .box-container .box{
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
     background-color: blanchedalmond;
     outline: .1rem solid rgb(213, 235, 227);
     outline-offset: -1rem;
@@ -128,10 +128,21 @@ nav{
     box-shadow: 0.5rem 1rem black;
 }
 .feature .box-container .box:hover{
-    outline: .2rem solid black;
+    outline: .1rem solid black;
     outline-offset: 0rem;
 }
 .feature .box-container .box img{
     margin: 1rem  0;
-    height: 15px;
+    height: 15rem;
+}
+.feature .box-container .box h3{
+    font-size: 1.5rem;
+    line-height:1.0 ;
+    color: blueviolet;
+}
+.feature .box-container .box p{
+    font-size: 1rem;
+    line-height: 1.0;
+    color: deeppink;
+    padding: 1rem 0;
 }
