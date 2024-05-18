@@ -42,7 +42,7 @@ nav{
 .menu li a{
     padding: 10px 15px;
     color:rgb(184, 137, 17);
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .logo:hover{
@@ -57,7 +57,7 @@ nav{
     font-style: italic;
 }
 .menu li a:hover{
-    background-color: #48c2b1;
+    background-color: #55d0bf;
     font-weight: 700;
     border-radius: 10px;
     border: solid 1px rgb(191, 202, 76);
@@ -102,47 +102,46 @@ nav{
 }
 .heading{
     text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
-    font-size: 2rem;
-    color: rgb(185, 138, 218);
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(156, 109, 190);
 }
 .heading span{
-    background-color: rgb(255, 145, 0);
-    color: rgb(255, 252, 249);
+    background-color: rgb(250, 166, 56);
+    color: rgb(255, 255, 255);
     display: inline-block;
-    padding: .5rem 1rem;
-    border-radius: 6px;
+    padding:8px;
+    border-radius: 4px;
+   
 }
-.feature .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-area: 1.5rem;
-}
-.feature .box-container .box{
-    padding: 2rem 1rem;
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
     background-color: blanchedalmond;
-    outline: .1rem solid rgb(213, 235, 227);
-    outline-offset: -1rem;
+}
+.container{
+    height: 350px;
+    width: 270px;
+    border:1px solid black;
+}
+.feature-img{
+    height: 120px;
+    width: 120px;
+    padding-left: 70px;
+}
+.container h1{
+    padding-top: 10px;
+    color: indigo;
     text-align: center;
-    box-shadow: 0.5rem 1rem black;
 }
-.feature .box-container .box:hover{
-    outline: .1rem solid black;
-    outline-offset: 0rem;
+.container p{
+    text-align:center;
+    padding: 30px;
+    font-size: 17px;
+    color: rgb(93, 90, 47);
 }
-.feature .box-container .box img{
-    margin: 1rem  0;
-    height: 15rem;
-}
-.feature .box-container .box h3{
-    font-size: 1.5rem;
-    line-height:1.0 ;
-    color: blueviolet;
-}
-.feature .box-container .box p{
-    font-size: 1rem;
-    line-height: 1.0;
-    color: deeppink;
-    padding: 1rem 0;
-}
+
