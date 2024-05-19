@@ -230,14 +230,13 @@ nav {
     background-color: pink;
 }
 
-/* Small Devices (Portrait Phones, less than 576px) */
+/* Small Devices */
 @media (max-width: 575.98px) {
     nav {
         flex-direction: column;
         height: auto;
         padding: 10px;
     }
-
     .menu {
         flex-direction: column;
         align-items: center;
@@ -246,12 +245,13 @@ nav {
         padding: 10px 0;
         font-size: 10px;
     }
-
+    .menu li a:hover{
+        background-color: whitesmoke;
+    }
     .logo {
         font-size: 20px;
         margin-left: 0;
     }
-
     .ideal {
         width: 90%;
         top: 20%;
@@ -259,45 +259,36 @@ nav {
         line-height: 40px;
         text-align: center;
     }
-
     .ideal h1 {
         font-size: 24px;
     }
-
     .detail {
         font-size: 18px;
     }
-
-    .downlaod {
-        width: 150px;
+    .ideal .downlaod {
+        width: 200px;
         height: 35px;
         font-size: 18px;
     }
-
     .heading {
         font-size: 24px;
         padding: 20px;
     }
-
     .feature {
         flex-direction: column;
         align-items: center;
     }
-
     .container {
         width: 90%;
         margin: 10px 0;
     }
-
     .offer {
         padding-right: 20px;
         padding-top: 20px;
     }
-
     .sell {
         padding-right: 20px;
     }
-
     .sell button {
         width: 120px;
         height: 35px;
@@ -306,54 +297,48 @@ nav {
     .main {
         background-image: none;
     }
-
     .offer {
         background-image: none;
     }
 }
-
-/* Medium Devices (Tablets, less than 768px) */
+/* Medium Devices */
 @media (max-width: 767.98px) {
     nav {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
+        background-color:#def0ed;
         padding: 10px;
     }
-
     .menu {
         flex-direction: column;
         align-items: center;
     }
-
     .menu li a {
         padding: 10px 0;
-        font-size: 16px;
+        font-size: 14px;
     }
-
     .logo {
         font-size: 22px;
         margin-left: 0;
     }
-
     .ideal {
-        width: 80%;
-        top: 20%;
-        left: 10%;
+        width: 50%;
+        top: 50%;
+        left: 30%;
         line-height: 40px;
         text-align: center;
     }
-
     .ideal h1 {
         font-size: 28px;
     }
-
     .detail {
         font-size: 20px;
     }
     .downlaod {
-        width: 160px;
+        width: 120px;
         height: 38px;
         font-size: 20px;
+        margin-left: 120px;
     }
     .heading {
         font-size: 26px;
@@ -363,6 +348,10 @@ nav {
         flex-direction: column;
         align-items: center;
     }
+    .dropbtn{
+        margin-left: 20px;
+        font-size: 14px;
+    }
     .container {
         width:280px;
         height: 350px;
@@ -371,7 +360,7 @@ nav {
     .offer {
         padding-right: 10px;
         padding-top: 20px;
-        font-size: 14px;
+        font-size: 18px;
         background-image: none;
         background-color: rgb(131, 65, 198);
     }
@@ -383,6 +372,7 @@ nav {
         width: 130px;
         height: 38px;
         font-size: 18px;
+        left: 10%;
     }
     .main {
         background-image: none;
@@ -397,31 +387,25 @@ nav {
         left: 10%;
         line-height: 60px;
     }
-
     .ideal h1 {
         font-size: 40px;
     }
-
     .detail {
         font-size: 35px;
     }
-
     .downlaod {
         width: 200px;
         height: 45px;
         font-size: 25px;
     }
-
     .heading {
         font-size: 30px;
         padding: 30px;
     }
-
     .feature {
         flex-direction: row;
         justify-content: space-evenly;
     }
-
     .container {
         width: 270px;
         margin: 10px;
