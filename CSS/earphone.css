@@ -195,7 +195,7 @@ cursor: pointer;
 box-shadow: 2px 2px  20px rgb(150, 182, 184);
 }
 .earbuds-heading{
-font-size: 35px;
+font-size: 30px;
 font-style: italic;
 margin-left: 50px;
 font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -204,4 +204,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif ;
 color: rgb(2, 2, 40);
 margin-left: 70px;
 font-size: 30px;
+margin-bottom: 50px;
+}
+.range{
+    background-color: antiquewhite;
+    font-size: 30px;
+     display:block;
+     text-align: center;
 }
