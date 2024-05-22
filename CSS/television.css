@@ -12,7 +12,6 @@ a {
     height: 90vh;
     background-color: rgb(96, 195, 168);
     position: relative;
-    background-image: url(../Images/online.png);
     background-repeat: no-repeat;
     background-size: 1000px;
     background-position: right bottom;
@@ -52,4 +51,50 @@ nav {
     border-radius: 10px;
     border: solid 1px rgb(211, 224, 65);
     transition: all ease 0.4s;
+}
+.dropdown-checkbox {
+    display: none;
+}
+.dropbtn {
+    padding: 10px 15px;
+    color: rgb(184, 137, 17);
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.dropbtn:hover {
+    background-color: #def0ed;
+    font-weight: 700;
+    border-radius: 10px;
+    border: solid 1px rgb(191, 202, 76);
+    transition: all ease 0.4s;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #cceae5;
+    box-shadow: 0px 8px 16px 3px rgba(74, 79, 79, 0.916);
+    z-index: 1;
+    border-radius: 10px;
+    width: 220px;
+}
+.dropdown-checkbox:checked + .dropbtn .arrow {
+    transform: rotate(180deg);
+}
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: list-item;
+    border-radius: 5px;
+}
+.dropdown-content a:hover {
+    background-color: #a6e4d1;
+    box-shadow: 0px 1px 10px 1px rgba(74, 79, 79, 0.916);
+}
+.dropdown-checkbox:checked ~ .dropdown-content {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
