@@ -595,12 +595,16 @@ footer{
     text-align: center;
 }
 .card button{
+    text-decoration: none;
     background-color: #cece26;
     height: 40px;
     width: 130px;
     font-size: 16px;
     border-radius: 20px;
     border: 1px solid rgb(79, 37, 51);
+}
+.card-button a{
+    text-decoration: none;
 }
 .card button:hover{
     background-color: rgb(205, 189, 217);
