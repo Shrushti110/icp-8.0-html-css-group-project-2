@@ -209,5 +209,6 @@ margin-bottom: 50px;
 .range{
     background-color: antiquewhite;
     font-size: 30px;
-    text-align: center;
+     display:block;
+     text-align: center;
 }
