@@ -23,6 +23,23 @@
     object-fit: cover; /* Crop image to fit within container */
     
   }
+  .speaker-image-2 {
+    width: 50%; /* Stretch image to full width */
+    height: 200px; /* Adjust image height */
+    object-fit: cover; /* Crop image to fit within container */
+    margin-left: 20%;
+  }
+  .Know-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 23%;
+  }
   
   .item-details {
     flex-grow: 1; /* Allow details to fill remaining space */
@@ -58,4 +75,7 @@
     margin-top: 10px;
     margin-left: 30px;
     font-weight: bold;
+  }
+  .speaker-main{
+    padding: 30px;
   }
