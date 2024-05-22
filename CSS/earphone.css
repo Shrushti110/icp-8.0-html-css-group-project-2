@@ -122,7 +122,9 @@ nav {
     display: inline-block;
     transition: transform 0.3s
 }
-
+.active-menu{
+    background-color: #ccddff;
+}
 .container_cart {
     display: flex;
     flex-direction: row;
