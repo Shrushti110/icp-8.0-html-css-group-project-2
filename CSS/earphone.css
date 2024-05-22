@@ -1,0 +1,79 @@
+.container_cart {
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+   .cart{
+margin:50px 30px 30px 60px;
+height: 600px;
+width: 360px;
+background-color: aliceblue;
+border-radius: 10px;
+box-shadow: 1px 1px 20px 2px grey;
+display: inline-block;
+}
+.price{
+margin-left: 15px;
+font-size: 20px;
+}
+
+.e-img{
+margin: 0 50px; 
+height: 170px;
+width: 250px;
+border-radius: 10px 10px 0 0;
+display: block;
+margin-bottom: 5px;
+}
+.img_background{
+background-color: white;
+}
+.e-name{
+margin-left: 15px;
+font-size: 17px;
+}
+.disc{
+margin-top: 0;
+margin-left: 15px;
+}
+
+.d-head{
+color: rgba(57, 55, 55, 0.63);
+}
+.details{
+display: block;
+margin-left: 5px;
+}
+.highlight{
+margin-top: 8px;
+margin-left: 20px;
+}
+
+.key{
+color:rgb(103, 94, 94);
+}
+.btn{
+background-color: black; 
+color: white; 
+border-radius: 7px; 
+border: none;
+padding: 5px; 
+margin-left: 140px;
+cursor: pointer;
+}
+.btn:hover{
+box-shadow: 2px 2px  20px rgb(150, 182, 184);
+}
+.earbuds-heading{
+font-size: 35px;
+font-style: italic;
+margin-left: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.sub-heading{
+color: rgb(2, 2, 40);
+margin-left: 70px;
+font-size: 30px;
+}
