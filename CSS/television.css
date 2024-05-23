@@ -251,3 +251,23 @@ nav {
  .icon img:hover:hover{
     box-shadow:0 0 7px 4px rgb(181, 131, 178);
  }
+ .header {
+    background-color: rgb(103, 172, 160);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+.intro {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.intro h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.intro p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
