@@ -247,3 +247,9 @@ nav {
 .buy-btn:hover {
     background-color: #e04e2e;
 }
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
