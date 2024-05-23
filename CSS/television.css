@@ -279,3 +279,6 @@ nav {
     padding: 10px; 
     margin-left: 140px;
 }
+.buy-btn:hover {
+    background-color: #e04e2e;
+}
