@@ -659,7 +659,7 @@ footer{
     font-size: 17px;
 }
 .disc{
-    margin-top: 0;
+    margin-top: 10px;
     margin-left: 15px;
 }
 
@@ -667,8 +667,7 @@ footer{
     color: rgba(57, 55, 55, 0.63);
 }
 .highlight{
-    margin-top: 8px;
-    margin-left: 20px;
+    margin: 10px 0 20px 20px;
 }
 
 .btn{
@@ -677,7 +676,7 @@ footer{
     border-radius: 20px; 
     border: none;
     padding: 10px; 
-    margin-left: 140px;
+    margin:30px 0 0 135px;
 }
   
 .categories{
@@ -693,7 +692,7 @@ footer{
     background-color: #c2e1db;
 }
 
-.catergories-s{
+.categories-s{
     z-index: 2;
     padding: 20px 0 0 0;
     width: 100%;
