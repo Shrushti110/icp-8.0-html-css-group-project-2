@@ -1,7 +1,7 @@
 body{
     width: auto;
+    background-color:#f1fafb;
     height: auto;
-    box-sizing: content-box;
 }
 
 * {
@@ -237,7 +237,17 @@ nav {
 .sell button:hover {
     background-color: pink;
 }
-
+/*VEDIO SECTION*/
+   .video{
+    padding: 40px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-bottom:0;
+    display:flex;
+    flex-direction: row;
+    background-color: #eff6f8;
+    border-radius: 10px;
+   }
 /* Small Devices */
 @media (max-width: 600px) {
     nav {
@@ -497,7 +507,7 @@ nav {
 */
 /*Footer Section*/
  .footer{
-    margin-top: 150px;
+    margin-top: 40px;
     width: auto;
     font-size: 17px;
     padding: 100px 10%;
@@ -639,4 +649,29 @@ footer{
     font-size: 20px;
     font-style:italic;
     padding-top: 3px;
+}
+.about{
+    padding: 50px  ;
+    background-image: url(./../Images/background.jpg);
+    background-repeat: no-repeat;
+    height: 230px;
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
+    align-content: center;
+    border-radius: 10px;
+}
+.about-container{
+    color: #f2c8ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about-container img{
+    height: 70px ;
+    width: 70px;
+}
+.about-container h2{
+    color: gold;
 }
