@@ -242,6 +242,42 @@ margin-bottom: 50px;
      text-align: center;
 }
 /*footer*/
+.offer {
+    background-color: #2a2145;
+    height: 450px;
+    width: 100%;
+    background-image: url(./../Images/3D.avif);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position: left center;
+    position: relative;
+    border: 2px dotted rgb(114, 137, 132);
+    backface-visibility: hidden;
+}
+.sell img {
+    height: 80px;
+    width: 60px;
+    padding-bottom: 20px;
+}
+.sell {
+    text-align: right;
+    color: rgb(238, 219, 219);
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.sell button {
+    background-color: rgb(252, 150, 18);
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    color: rgb(119, 50, 136);
+    font-size: 18px;
+    border-radius: 9px 0 9px 0;
+    margin-top: 5px;
+}
+.sell button:hover {
+    background-color: pink;
+}
 .footer{
     margin-top: 40px;
     width: auto;
@@ -383,6 +419,14 @@ width: 70px;
 margin: 10px auto;
 margin-left: 50px;
 }
+.offer {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.sell {
+    padding-right: 20px;
+    padding-top: 30px;
+}
 }
 /* Mobile Devices */
 @media screen and (min-width: 601px) and (max-width: 915px) {
@@ -451,6 +495,17 @@ display: none;
     margin-left: 30px;
     display: block;
 }
+.offer {
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+    background-image: none;
+    background-color: rgb(131, 65, 198);
+}
+.sell {
+    padding-left: 40px;
+    text-align: left;
+}
 }
   /* Tablet Devices */
  @media screen and (min-width: 915px) and (max-width:1034px) {
@@ -495,6 +550,9 @@ margin-bottom: 5px;
     flex-wrap: wrap;
     align-items: start;
    }
+   .sell {
+    padding-right: 200px;
+}
 }
 @media screen and (min-width: 1106px) and (max-width: 1380px) { 
     .cart{
