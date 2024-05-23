@@ -212,9 +212,7 @@ cursor: pointer;
 .clickbtn{
     display: none;
 }
-.moreinfo{
-    display: none;
-}
+
 .btn:hover{
 box-shadow: 2px 2px  20px rgb(150, 182, 184);
 }
