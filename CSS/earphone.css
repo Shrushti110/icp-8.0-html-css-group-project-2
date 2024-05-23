@@ -456,7 +456,7 @@ display: none;
  @media screen and (min-width: 915px) and (max-width:1034px) {
     .cart{
 margin:50px 30px 30px 60px;
-height: 520px;
+height: 540px;
 width: 360px;
 background-color: aliceblue;
 border-radius: 10px;
