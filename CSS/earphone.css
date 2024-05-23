@@ -226,11 +226,12 @@ box-shadow: 2px 2px  20px rgb(150, 182, 184);
 font-size: 30px;
 font-style: italic;
 margin-left: 50px;
+margin-top: 20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 .sub-heading{
 color: rgb(2, 2, 40);
-margin-left: 70px;
+margin-left: 90px;
 font-size: 30px;
 margin-bottom: 50px;
 }
@@ -327,14 +328,33 @@ margin-bottom: 50px;
         flex-direction: column;
         align-items: center;
     }
+       .range{
+            font-size: 30px;
+            font-family: cursive;
+             display:block;
+             text-align: center;
+             background-color: #ccd1db;
+        }
+        .earbuds-heading{
+            font-size: 25px;
+            font-style: italic;
+            color: navy;
+            }
+            .sub-heading{
+            color: rgb(2, 2, 40);
+            margin-left: 90px;
+            font-size: 20px;
+            margin-bottom: 50px;
+            }
     .cart{
         height: 230px;
-width: 190px;
-margin: 10px;
-}.container_cart {
+        width: 190px;
+}
+.container_cart {
     flex-direction: column;
-    justify-content:start;
-    align-items: center;
+    justify-content:space-around;
+    align-items: start;
+    margin-left: 100px;
    }
    .disc{
 display:none ;
