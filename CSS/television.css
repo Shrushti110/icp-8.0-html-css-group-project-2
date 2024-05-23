@@ -144,42 +144,6 @@ nav {
     background-color: rgb(103, 172, 160);
     text-align: center;
 }
-.offer {
-    background-color: #2a2145;
-    height: 450px;
-    width: 100%;
-    background-image: url(./../Images/3D.avif);
-    background-repeat: no-repeat;
-    background-size: 650px;
-    background-position: left center;
-    position: relative;
-    border: 2px dotted rgb(114, 137, 132);
-    backface-visibility: hidden;
-}
-.sell img {
-    height: 80px;
-    width: 60px;
-    padding-bottom: 20px;
-}
-.sell {
-    text-align: right;
-    color: rgb(238, 219, 219);
-    padding-right: 200px;
-    padding-top: 50px;
-}
-.sell button {
-    background-color: rgb(252, 150, 18);
-    width: 150px;
-    height: 40px;
-    border: 1px solid black;
-    color: rgb(119, 50, 136);
-    font-size: 18px;
-    border-radius: 9px 0 9px 0;
-    margin-top: 5px;
-}
-.sell button:hover {
-    background-color: pink;
-}
 .footer{
     margin-top: 150px;
     width: auto;
@@ -256,6 +220,7 @@ nav {
     color: black;
     padding: 20px 0;
     text-align: center;
+    margin-top: -10px;
 }
 .intro {
     padding: 40px 20px;
@@ -281,4 +246,10 @@ nav {
 }
 .buy-btn:hover {
     background-color: #e04e2e;
+}
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
