@@ -271,3 +271,11 @@ nav {
     font-size: 18px;
     margin-bottom: 40px;
 }
+.buy-btn{
+    background-color: black; 
+    color: white; 
+    border-radius: 20px; 
+    border: none;
+    padding: 10px; 
+    margin-left: 140px;
+}
