@@ -219,6 +219,7 @@ nav {
     color: black;
     padding: 20px 0;
     text-align: center;
+    margin-top: -20px;
 }
 .intro {
     padding: 40px 20px;
