@@ -143,6 +143,14 @@ nav {
     display: inline-block;
     transition: transform 0.3s
 }
+.header {
+    background-color: rgb(103, 172, 160);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom:5px;
+}
 .active-menu{
     background-color: #ccddff;
 }
@@ -209,13 +217,16 @@ color:rgb(103, 94, 94);
 .btn{
 background-color: black; 
 color: white; 
-border-radius: 7px; 
+border-radius: 10px; 
 border: none;
 padding: 5px; 
 margin-left: 140px;
 margin-top: 5px;
 margin-bottom: 10px;
 cursor: pointer;
+}
+.btn:hover {
+    background-color: #e04e2e;
 }
 .clickbtn{
     display: none;
@@ -227,20 +238,18 @@ box-shadow: 2px 2px  20px rgb(150, 182, 184);
 .earbuds-heading{
 font-size: 30px;
 font-style: italic;
-margin-left: 50px;
-margin-top: 20px;
+text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 .sub-heading{
 color: rgb(2, 2, 40);
-margin-left: 90px;
 font-size: 30px;
 margin-bottom: 50px;
+text-align: center;
 
 }
 .range{
     font-size: 30px;
-    font-family: cursive;
      display:block;
      text-align: center;
      background-color:#c2e1db;
