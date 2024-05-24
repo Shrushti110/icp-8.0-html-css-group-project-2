@@ -3256,75 +3256,176 @@ form button:hover {
         box-shadow: 1px 1px 20px 2px grey;
 
     }
-        .Top-Recommended {
-            margin-top: 110px;
-        }
-    
-        header {
-            background-color: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%;
-        }
-    
-        h1,
-        h2,
-        h3 {
-            margin: 0 0 20px;
-        }
-    
-        h2 {
-    
-            z-index: 2;
-            text-align: center;
-            padding: 20px 0 0 0;
-            width: 100%;
-            height: 40px;
-            font-size: 20px;
-            color: black;
-            position: sticky;
-            top: 40px;
-            background-color: #c2e1db;
-        }
-                .price {
-                    margin-left: 15px;
-                    font-size: 20px;
-                }
-        
-                .price2 {
-                    margin-left: 15px;
-                    font-size: 20px;
-                }
-        
-                .price3 {
-                    margin-left: 15px;
-                    font-size: 20px;
-                }
-        
-                .price4 {
-                    margin-left: 15px;
-                    font-size: 20px;
-                }
-        
-                .c1-img {
-                    margin-bottom: 5px;
-                    height: 215px;
-                    width: 350px;
-                    border-radius: 10px 10px 0 0;
-                }
-        
-                .c2-img {
-                    margin-bottom: 5px;
-                    height: 215px;
-                    width: 350px;
-                    border-radius: 10px 10px 0 0;
-                }
-        
-                .c3-img {
-                    margin-bottom: 5px;
-                    height: 215px;
-                    width: 350px;
-                    border-radius: 10px 10px 0 0;
-                }
+
+    .Top-Recommended {
+        margin-top: 110px;
+    }
+
+    header {
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: 0 0 20px;
+    }
+
+    h2 {
+
+        z-index: 2;
+        text-align: center;
+        padding: 20px 0 0 0;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        color: black;
+        position: sticky;
+        top: 40px;
+        background-color: #c2e1db;
+    }
+
+    .price {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .price2 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .price3 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .price4 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .c1-img {
+        margin-bottom: 5px;
+        height: 215px;
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .c2-img {
+        margin-bottom: 5px;
+        height: 215px;
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .c3-img {
+        margin-bottom: 5px;
+        height: 215px;
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .c-name {
+        margin-left: 15px;
+        font-size: 17px;
+    }
+
+    .disc {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .d-head {
+        color: rgba(57, 55, 55, 0.63);
+    }
+
+    .highlight {
+        margin-top: 8px;
+        margin-left: 20px;
+    }
+
+    .btn1-1 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 140px;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: 140px;
+    }
+
+    .btn2-1 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 70px;
+        margin-left: 140px;
+    }
+
+    .btn2 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 55px;
+        margin-left: 140px;
+    }
+
+    .btn3-2 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 90px;
+        margin-left: 140px;
+    }
+
+    .btn3 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: 140px;
+    }
+
+    .btn4 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: 140px;
+    }
+
+    .btn4-2 {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-top: 85px;
+        margin-left: 140px;
+    }
 }
