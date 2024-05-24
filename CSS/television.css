@@ -3,13 +3,12 @@
     padding: 0;
     position: relative;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 ul {
-    list-style: none;}
+    list-style: none;
+}
 a {
-    text-decoration: none;}
+    text-decoration: none;
+}
 .main {
     height: 60px;
     background-color: rgb(243, 243, 243);
@@ -23,7 +22,7 @@ nav {
     letter-spacing: 2px;
     position: fixed;
     top: 0;
-    background-color: rgb(240, 247, 244);
+    background-color: rgb(222, 243, 234);
     left: 0;
     width: 100%;
     height: 50px;
@@ -141,44 +140,8 @@ nav {
 }
 .category-heading{
     padding: 10px;
-    background-color: rgb(103, 172, 160);
+    background-color: #c2e1db;
     text-align: center;
-}
-.offer {
-    background-color: #2a2145;
-    height: 450px;
-    width: 100%;
-    background-image: url(./../Images/3D.avif);
-    background-repeat: no-repeat;
-    background-size: 650px;
-    background-position: left center;
-    position: relative;
-    border: 2px dotted rgb(114, 137, 132);
-    backface-visibility: hidden;
-}
-.sell img {
-    height: 80px;
-    width: 60px;
-    padding-bottom: 20px;
-}
-.sell {
-    text-align: right;
-    color: rgb(238, 219, 219);
-    padding-right: 200px;
-    padding-top: 50px;
-}
-.sell button {
-    background-color: rgb(252, 150, 18);
-    width: 150px;
-    height: 40px;
-    border: 1px solid black;
-    color: rgb(119, 50, 136);
-    font-size: 18px;
-    border-radius: 9px 0 9px 0;
-    margin-top: 5px;
-}
-.sell button:hover {
-    background-color: pink;
 }
 .footer{
     margin-top: 150px;
@@ -256,6 +219,7 @@ nav {
     color: black;
     padding: 20px 0;
     text-align: center;
+    margin-top: -20px;
 }
 .intro {
     padding: 40px 20px;
@@ -281,4 +245,128 @@ nav {
 }
 .buy-btn:hover {
     background-color: #e04e2e;
+}
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* Small Devices */
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu li {
+        margin: 5px 0;
+    }
+    .card {
+        margin: 20px auto;
+        width: 90%;
+    }
+    .btn, .buy-btn {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    form input {
+        width: 90%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .header{
+        margin-top: 120px;
+    }
+    .card{
+        height: 600px;
+        width: 380px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 2px grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
+/* Normal Devices */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    nav {
+        padding: 10px 30px;
+    }
+    .card {
+        margin: 30px auto;
+        width: 80%;
+    }
+    .btn, .buy-btn {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    form input {
+        width: 80%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .card{
+        height: 600px;
+        width: 380px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 2px grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
+/* Tablet Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        padding: 10px 40px;
+    }
+    .card {
+        margin: 30px auto;
+        width: 45%;
+    }
+    form input {
+        width: 70%;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer div {
+        width: 30%;
+    }
+    .card{
+        height: 600px;
+        width: 380px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 2px grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
 }
