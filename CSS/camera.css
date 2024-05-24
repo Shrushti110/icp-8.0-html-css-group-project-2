@@ -3110,4 +3110,143 @@ form button:hover {
                     display: inline-block;
                     transition: transform 0.3s
                 }
+                                #card1 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                
+                                #card2 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                
+                                #card3 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                
+                                #card4 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                
+                                .cart1 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart2 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart3 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart2-1 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart2-2 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart2-3 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart3-1 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart3-2 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart3-3 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart4-1 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart4-2 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
+                
+                                .cart4-3 {
+                                    margin: 50px 30px 30px 60px;
+                                    height: 550px;
+                                    width: 350px;
+                                    background-color: aliceblue;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 20px 2px grey;
+                
+                                }
 }
