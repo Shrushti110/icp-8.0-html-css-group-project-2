@@ -252,7 +252,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-/* small devices */
+/* Small Devices */
 @media screen and (max-width: 600px) {
     nav {
         padding: 10px 20px;
@@ -327,6 +327,36 @@ nav {
     .footer div {
         width: 80%;
         margin-bottom: 20px;
+    }
+    .card{
+        height: 600px;
+        width: 380px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 2px grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
+/* Tablet Devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        padding: 10px 40px;
+    }
+    .card {
+        margin: 30px auto;
+        width: 45%;
+    }
+    form input {
+        width: 70%;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer div {
+        width: 30%;
     }
     .card{
         height: 600px;
