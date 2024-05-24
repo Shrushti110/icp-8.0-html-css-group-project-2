@@ -529,12 +529,9 @@ display: inline-block;
 @media screen and (min-width: 1035px) and (max-width: 1105px) { 
     .cart{
 margin:20px;
-height: 450px;
+height: 600px;
 width: 300px;
 } 
-.highlight{
-display: none;
-}
 .btn{
       text-align:center ;
       margin-left:120px;
@@ -555,10 +552,6 @@ margin-bottom: 5px;
    }
    .sell {
     padding-right: 200px;
-}
-.horizontal-row{
-    margin-top: -30px;
-    display: block;
 }
 }
 @media screen and (min-width: 1106px) and (max-width: 1380px) { 
