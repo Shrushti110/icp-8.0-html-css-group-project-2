@@ -116,13 +116,11 @@ nav {
     position: relative;
     display: inline-block;
 }
-
 header {
     background-color: #c2e1db;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
 }
 
 .Top-Recommended {
@@ -146,12 +144,11 @@ header {
 
 .c-img {
     padding: 10px;
-    height: 190px;
-    width: 320px;
+    height: 180px;
+    width: 330px;
     border-radius: 10px 10px 0 0;
-    margin-right: 0;
-
-
+   
+    
 }
 
 .c-name {
@@ -448,7 +445,7 @@ form button:hover {
 
     .card {
         height: 600px;
-        width: 350px;
+        width: 380px;
         background-color: aliceblue;
         border-radius: 10px;
         box-shadow: 1px 1px 20px 2px grey;
