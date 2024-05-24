@@ -168,6 +168,8 @@ font-size: 20px;
 }
 .img_background{
     border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .e-img{
 margin: 0 50px; 
@@ -234,12 +236,14 @@ color: rgb(2, 2, 40);
 margin-left: 90px;
 font-size: 30px;
 margin-bottom: 50px;
+
 }
 .range{
     font-size: 30px;
     font-family: cursive;
      display:block;
      text-align: center;
+     background-color:#c2e1db;
 }
 /*footer*/
 .offer {
@@ -369,7 +373,7 @@ margin-bottom: 50px;
             font-family: cursive;
              display:block;
              text-align: center;
-             background-color: #ccd1db;
+             background-color: #c2e1db;
         }
         .earbuds-heading{
             font-size: 25px;
@@ -427,6 +431,17 @@ margin-left: 50px;
     padding-right: 20px;
     padding-top: 30px;
 }
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+     justify-content: start;
+     padding-right: 80px;
+     padding-left: 30px;
+}
+.second{
+    display: none;
+}
 }
 /* Mobile Devices */
 @media screen and (min-width: 601px) and (max-width: 915px) {
@@ -441,7 +456,6 @@ margin-left: 50px;
         font-family: cursive;
          display:block;
          text-align: center;
-         background-color: #ccd1db;
     }
     .menu {
         flex-direction: column;
@@ -506,6 +520,17 @@ display: none;
     padding-left: 40px;
     text-align: left;
 }
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+     justify-content: start;
+     padding-right: 80px;
+     padding-left: 30px;
+}
+.second{
+    display: none;
+}
 }
   /* Tablet Devices */
  @media screen and (min-width: 915px) and (max-width:1034px) {
@@ -526,12 +551,9 @@ display: inline-block;
 @media screen and (min-width: 1035px) and (max-width: 1105px) { 
     .cart{
 margin:20px;
-height: 450px;
+height: 600px;
 width: 300px;
 } 
-.highlight{
-display: none;
-}
 .btn{
       text-align:center ;
       margin-left:120px;
@@ -557,7 +579,7 @@ margin-bottom: 5px;
 @media screen and (min-width: 1106px) and (max-width: 1380px) { 
     .cart{
 margin-left: 100px;
-height: 520px;
+height: 530px;
 width: 370px;
 }
 .container_cart {
