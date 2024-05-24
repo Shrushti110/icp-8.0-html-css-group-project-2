@@ -3428,4 +3428,22 @@ form button:hover {
         margin-top: 85px;
         margin-left: 140px;
     }
+        .footer {
+            margin-top: 40px;
+            width: auto;
+            font-size: 17px;
+            padding: 100px 10%;
+            background-color: rgb(201, 223, 213);
+            color: #30665b;
+            display: flex;
+        }
+    
+        .footer div {
+            text-align: center;
+            justify-content: space-around;
+        }
+    
+        .first {
+            padding-left: 40px;
+        }
 }
