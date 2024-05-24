@@ -230,49 +230,6 @@ nav {
 }
 
 
-/* Extra Large Devices (Large Desktops, greater than 1200px) 
-@media (min-width: 1200px) {
-    .ideal {
-        width: 650px;
-        top: 33%;
-        left: 10%;
-        line-height: 60px;
-    }
-    .ideal h1 {
-        font-size: 40px;
-    }
-    .detail {
-        font-size: 35px;
-    }
-    .downlaod {
-        width: 200px;
-        height: 45px;
-        font-size: 25px;
-    }
-    .heading {
-        font-size: 30px;
-        padding: 30px;
-    }
-    .feature {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .container {
-        width: 270px;
-        margin: 10px;
-    }
-    .sell {
-        padding-right: 200px;
-    }
-    .sell button {
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-    }
-}
-*/
-/*Footer Section*/
-
  .footer{
     margin-top: 40px;
     width: auto;
@@ -420,7 +377,7 @@ footer{
 
 .cart{
     margin:100px 30px 30px 60px;
-    height: 580px;
+    height: 600px;
     width: 350px;
     background-color: aliceblue;
     border-radius: 10px;
@@ -460,29 +417,24 @@ footer{
 }
 
 
-.btn-img{
-    border-radius: 30px;
-    margin: 10px 0 0 60px;
-    height: 30px;
-    width: 80px;
-    justify-content:space-evenly;
-
-}
-
 .h-btn{
-    margin-top: 5px;
+    margin-top: 30px;
     text-align: center;
 
 }
 .btn{
-    background-color: black; 
-    color: white; 
-    border-radius: 20px; 
+    background-color: black;
+    color: white;
+    border-radius: 20px;
     border: none;
-    padding: 10px; 
-    margin:30px 0 0 135px;
+    padding: 10px;
 }
-  
+
+.m-video{
+    margin: 10px 0 50px 300px;
+    height: 400px;
+    width: 700px;
+   }
 .categories{
     z-index: 2;
     text-align: center;
@@ -689,7 +641,32 @@ footer{
 }
 
 /* Large Devices (Desktops, greater than 992px) */
-@media (min-width: 992px) {
+@media (min-width: 939px) and (max-width: 1115px) {
+
+    .cart{
+        margin:100px 10px 10px 100px;
+        width: 350px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 2px grey;
+        display: inline-block;
+    }
+
+    .m-img{
+        margin-bottom: 5px;
+        height: 180px;
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+    .m-video
+    {
+        margin: 10px 0 50px 200px;
+        height: 400px;
+        width: 700px;
+
+    }
+
+
     .ideal {
         width: 650px;
         top: 33%;
