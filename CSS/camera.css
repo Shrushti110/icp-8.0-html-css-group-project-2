@@ -3287,4 +3287,44 @@ form button:hover {
             top: 40px;
             background-color: #c2e1db;
         }
+                .price {
+                    margin-left: 15px;
+                    font-size: 20px;
+                }
+        
+                .price2 {
+                    margin-left: 15px;
+                    font-size: 20px;
+                }
+        
+                .price3 {
+                    margin-left: 15px;
+                    font-size: 20px;
+                }
+        
+                .price4 {
+                    margin-left: 15px;
+                    font-size: 20px;
+                }
+        
+                .c1-img {
+                    margin-bottom: 5px;
+                    height: 215px;
+                    width: 350px;
+                    border-radius: 10px 10px 0 0;
+                }
+        
+                .c2-img {
+                    margin-bottom: 5px;
+                    height: 215px;
+                    width: 350px;
+                    border-radius: 10px 10px 0 0;
+                }
+        
+                .c3-img {
+                    margin-bottom: 5px;
+                    height: 215px;
+                    width: 350px;
+                    border-radius: 10px 10px 0 0;
+                }
 }
