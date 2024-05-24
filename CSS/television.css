@@ -366,6 +366,7 @@ nav {
         box-shadow: 1px 1px 20px 2px grey;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
+        align-items: start;
     }
 }
