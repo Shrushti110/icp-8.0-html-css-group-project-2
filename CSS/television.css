@@ -219,7 +219,6 @@ nav {
     color: black;
     padding: 20px 0;
     text-align: center;
-    margin-top: -10px;
 }
 .intro {
     padding: 40px 20px;
@@ -251,4 +250,41 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+/* small devices */
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu li {
+        margin: 5px 0;
+    }
+    .card {
+        margin: 20px auto;
+        width: 90%;
+    }
+    .btn, .buy-btn {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    form input {
+        width: 90%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
