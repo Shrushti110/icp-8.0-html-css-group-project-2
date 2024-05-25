@@ -376,7 +376,7 @@ footer{
 
 
 .cart{
-    margin:100px 30px 30px 60px;
+    margin:80px 0 80px 0;
     height: 600px;
     width: 350px;
     background-color: aliceblue;
@@ -430,11 +430,6 @@ footer{
     padding: 10px;
 }
 
-.m-video{
-    margin: 10px 0 50px 300px;
-    height: 400px;
-    width: 700px;
-   }
 .categories{
     z-index: 2;
     text-align: center;
@@ -460,191 +455,64 @@ footer{
     
 }
 
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 
-
-/* Small Devices */
-@media (max-width: 575.98px) {
+@media screen and (max-width: 600px) {
     nav {
+        padding: 10px 20px;
         flex-direction: column;
+        align-items: flex-start;
         height: auto;
-        padding: 10px;
     }
     .menu {
         flex-direction: column;
-        align-items: center;
+        width: 100%;
     }
-    .menu li a {
-        padding: 10px 0;
-        font-size: 10px;
+    .menu li {
+        margin: 5px 0;
     }
-    .menu li a:hover{ 
-        background-color: #def0ed;
-        border: none;
-    }
-    .dropbtn:hover{
-        border: none;
-
-    }
-    .logo {
-        font-size: 20px;
-        margin-left: 0;
-    }
-    .ideal {
+    .card {
+        margin: 20px auto;
         width: 90%;
-        top: 20%;
-        left: 5%;
-        line-height: 40px;
+    }
+    .h-btn{
+        margin:30px 0 0 0;
         text-align: center;
+    
     }
-    .ideal h1 {
-        font-size: 10px;
-    }
-    .ideal h2{
-        font-size: 15px;
-    }
-    .ideal .detail{
-        font-size: 10px;
-    }
-    .ideal .downlaod {
-        width: 150px;
-        height: 35px;
-        font-size: 19px;
-        margin-left: 45px;
-    }
-    .heading{
-        padding-left: 50px;
-        font-size: 24px;
-        padding: 20px;
-    }
-    .feature {
-        flex-direction: column;
-        align-items: center;
-    }
-    .container h1{
-        padding-top: 2px;
-        font-size: 15px;
-    }
-    .container p{
-        padding-top: 3px;
-        font-size: 12px;
-    }
-    .feature-img{
-        padding-top: 7px;
-        padding-left: 60px;
-        height: 65px;
-        width: 70px;
-    }
-    .feature .container {
-        height: 220px;
-        width: 40%;
-        border-radius: 8px;
-        margin: 10px 0;
-    }
-    .offer {
-        padding-right: 20px;
-        padding-top: 20px;
-    }
-    .sell {
-        padding-right: 20px;
-        padding-top: 30px;
-    }
-    .sell button {
-        width: 120px;
-        height: 35px;
-        font-size: 16px;
-    }
-    .main {
-        background-image: none;
-    }
-    .offer {
-        background-image: none;
-    }
-}
-/* Medium Devices */
-@media (max-width: 767.98px) {
-    nav {
-        flex-direction: row;
-        height: auto;
-        background-color:#def0ed;
+
+    .btn{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: none;
         padding: 10px;
     }
-    .menu {
+
+    form input {
+        width: 90%;
+    }
+    .footer {
         flex-direction: column;
         align-items: center;
     }
-    .menu li a {
-        padding: 10px 0;
-        font-size: 14px;
+    .footer div {
+        width: 90%;
+        margin-bottom: 20px;
     }
-    .logo {
-        font-size: 22px;
-        margin-left: 0;
+    .header{
+        margin-top: 120px;
     }
-    .ideal {
-        width: 50%;
-        top: 50%;
-        left: 30%;
-        line-height: 40px;
-        text-align: center;
-    }
-    .ideal h1 {
-        font-size: 28px;
-    }
-    .detail {
-        font-size: 20px;
-    }
-    .downlaod {
-        width: 120px;
-        height: 38px;
-        font-size: 20px;
-        margin-left: 120px;
-    }
-    .heading {
-        font-size: 26px;
-        padding: 25px;
-    }
-    .feature {
-        flex-direction: column;
-        align-items: center;
-    }
-    .dropbtn{
-        margin-left: 20px;
-        font-size: 14px;
-    }
-    .container {
-        width:280px;
-        height: 350px;
-        margin: 10px 0;
-    }
-    .offer {
-        padding-right: 10px;
-        padding-top: 20px;
-        font-size: 18px;
-        background-image: none;
-        background-color: rgb(131, 65, 198);
-    }
-    .sell {
-        padding-left: 40px;
-        text-align: left;
-    }
-    .sell button {
-        width: 130px;
-        height: 38px;
-        font-size: 18px;
-        left: 10%;
-    }
-    .main {
-        background-image: none;
-    }
-}
-
-/* Large Devices (Desktops, greater than 992px) */
-@media (min-width: 939px) and (max-width: 1115px) {
-
     .cart{
-        margin:100px 10px 10px 100px;
+        margin:40px 0 0 0;
+        height: 600px;
         width: 350px;
         background-color: aliceblue;
         border-radius: 10px;
@@ -652,56 +520,187 @@ footer{
         display: inline-block;
     }
 
+    .f-card{
+        margin-top: 180px;
+    }
+
+.categories{
+    z-index: 2;
+    text-align: center;
+    padding: 20px 0 5px 0;
+    width: 100%;
+    height:20px;
+    font-size: 20px;
+    color: black;
+    position: sticky;
+    top: 180px;
+    background-color: #c2e1db;
+}
+
+.categories-s{
+    margin-top: 20px;
+    z-index: 2;
+    padding: 20px 0 5px 0;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    top: 180px;
+    background-color:#c2e1db;
+    
+}
+}
+/* Normal Devices */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    nav {
+        padding: 10px 30px;
+    }
+    .card {
+        margin: 30px auto;
+        width: 80%;
+    }
+    form input {
+        width: 80%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .cart{
+        margin:40px 0 0 0;
+        height: 600px;
+        width: 350px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 2px grey;
+        display: inline-block;
+    }
+
+
+    .categories{
+        margin-top: 20px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px 0 5px 0;
+        width: 100%;
+        height:30px;
+        font-size: 20px;
+        color: black;
+        position: sticky;
+        top: 40px;
+        background-color: #c2e1db;
+    }
+    
+    .categories-s{
+        margin-top: 20px;
+        z-index: 2;
+        padding: 20px 0 5px 0;
+        width: 100%;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        position: sticky;
+        top: 40px;
+        background-color:#c2e1db;
+    }
+    
     .m-img{
         margin-bottom: 5px;
-        height: 180px;
+        height: 200px;
         width: 350px;
         border-radius: 10px 10px 0 0;
     }
-    .m-video
-    {
-        margin: 10px 0 50px 200px;
-        height: 400px;
-        width: 700px;
-
-    }
+    
 
 
-    .ideal {
-        width: 650px;
-        top: 33%;
-        left: 10%;
-        line-height: 60px;
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     }
-    .ideal h1 {
-        font-size: 40px;
+
+    .h-btn{
+        margin:30px 0 0 0;
+        text-align: center;
     }
-    .detail {
-        font-size: 35px;
+
+
+
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        padding: 10px 40px;
     }
-    .downlaod {
-        width: 200px;
-        height: 45px;
-        font-size: 25px;
+    .cart {
+        margin: 30px auto;
+        width: 45%;
     }
-    .heading {
-        font-size: 30px;
-        padding: 30px;
+    form input {
+        width: 70%;
     }
-    .feature {
+    .footer {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
-    .container {
-        width: 270px;
-        margin: 10px;
+    .footer div {
+        width: 30%;
     }
-    .sell {
-        padding-right: 200px;
+
+
+    .cart{
+        margin:80px 0 80px 0;
+        height: 600px;
+        width: 350px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 2px grey;
+        display: inline-block;
     }
-    .sell button {
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-    }
+
+.h-btn{
+    margin-top: 30px;
+    text-align: center;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.categories{
+    z-index: 2;
+    text-align: center;
+    padding: 20px 0 0 0;
+    width: 100%;
+    height:40px;
+    font-size: 20px;
+    color: black;
+    position: sticky;
+    top: 40px;
+    background-color: #c2e1db;
+}
+
+.categories-s{
+    z-index: 2;
+    padding: 20px 0 0 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: sticky;
+    top: 40px;
+    background-color:#c2e1db;
+    
+}
+
 }
