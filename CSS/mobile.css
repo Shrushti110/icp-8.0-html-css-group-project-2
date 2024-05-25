@@ -430,6 +430,10 @@ footer{
     padding: 10px;
 }
 
+.btn:hover {
+    background-color: #e04e2e;
+}
+
 .categories{
     z-index: 2;
     text-align: center;
