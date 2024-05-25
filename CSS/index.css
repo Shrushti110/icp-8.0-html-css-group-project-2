@@ -3,7 +3,6 @@ body{
     background-color:#e9f4f5;
     height: auto;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -62,10 +61,11 @@ nav {
 .ideal {
     width: 650px;
     position: absolute;
-    padding-top:80px ; 
-    padding-left: 120px;
+    padding-top:450px ; 
+    padding-left: 220px;
     transform: translate(-10%, -33%);
     line-height: 60px;
+    align-items: center;
 }
 .detail {
     line-height: 30px !important;
@@ -248,264 +248,7 @@ nav {
     background-color: #eff6f8;
     border-radius: 10px;
    }
-/* Small Devices */
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-    }
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
-    .menu li a {
-        padding: 10px 0;
-        font-size: 10px;
-    }
-    .menu li a:hover{ 
-        background-color: #def0ed;
-        border: none;
-    }
-    .dropbtn:hover{
-        border: none;
 
-    }
-    .logo {
-        font-size: 20px;
-        margin-left: 0;
-    }
-    .ideal {
-        width: 90%;
-        top: 20%;
-        left: 5%;
-        line-height: 40px;
-        text-align: center;
-    }
-    .ideal h1 {
-        font-size: 10px;
-    }
-    .ideal h2{
-        font-size: 15px;
-    }
-    .ideal .detail{
-        font-size: 10px;
-    }
-    .ideal .downlaod {
-        width: 150px;
-        height: 35px;
-        font-size: 19px;
-        margin-left: 45px;
-    }
-    .heading{
-        padding-left: 50px;
-        font-size: 24px;
-        padding: 20px;
-    }
-    .feature {
-        flex-direction: column;
-        align-items: center;
-    }
-    .container h1{
-        padding-top: 2px;
-        font-size: 15px;
-    }
-    .container p{
-        padding-top: 3px;
-        font-size: 12px;
-    }
-    .feature-img{
-        padding-top: 7px;
-        padding-left: 60px;
-        height: 65px;
-        width: 70px;
-    }
-    .feature .container {
-        height: 220px;
-        width: 40%;
-        border-radius: 8px;
-        margin: 10px 0;
-    }
-    .offer {
-        padding-right: 20px;
-        padding-top: 20px;
-    }
-    .sell {
-        padding-right: 20px;
-        padding-top: 30px;
-    }
-    .sell button {
-        width: 120px;
-        height: 35px;
-        font-size: 16px;
-    }
-    .main {
-        background-image: none;
-    }
-    .offer {
-        background-image: none;
-    }
-}
-/* Medium Devices */
-@media screen and (min-width: 601px) and (max-width: 900px) {
-    nav {
-        flex-direction: row;
-        height: auto;
-        background-color:#def0ed;
-        padding: 10px;
-    }
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
-    .menu li a {
-        padding: 10px 0;
-        font-size: 14px;
-    }
-    .logo {
-        font-size: 22px;
-        margin-left: 0;
-    }
-    .ideal {
-        width: 50%;
-        top: 50%;
-        left: 30%;
-        line-height: 40px;
-        text-align: center;
-    }
-    .ideal h1 {
-        font-size: 28px;
-    }
-    .detail {
-        font-size: 20px;
-    }
-    .downlaod {
-        width: 120px;
-        height: 38px;
-        font-size: 20px;
-        margin-left: 120px;
-    }
-    .heading {
-        font-size: 26px;
-        padding: 25px;
-    }
-    .feature {
-        flex-direction: column;
-        align-items: center;
-    }
-    .dropbtn{
-        margin-left: 20px;
-        font-size: 14px;
-    }
-    .container {
-        width:280px;
-        height: 350px;
-        margin: 10px 0;
-    }
-    .offer {
-        padding-right: 10px;
-        padding-top: 20px;
-        font-size: 18px;
-        background-image: none;
-        background-color: rgb(131, 65, 198);
-    }
-    .sell {
-        padding-left: 40px;
-        text-align: left;
-    }
-    .sell button {
-        width: 130px;
-        height: 38px;
-        font-size: 18px;
-        left: 10%;
-    }
-    .main {
-        background-image: none;
-    }
-}
-
-/* Large Devices (Desktops, greater than 992px) */
-@media (min-width: 700px) {
-    .ideal {
-        width: 650px;
-        top: 33%;
-        left: 10%;
-        line-height: 60px;
-    }
-    .ideal h1 {
-        font-size: 40px;
-    }
-    .detail {
-        font-size: 35px;
-    }
-    .downlaod {
-        width: 200px;
-        height: 45px;
-        font-size: 25px;
-    }
-    .heading {
-        font-size: 30px;
-        padding: 30px;
-    }
-    .feature {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .container {
-        width: 270px;
-        margin: 10px;
-    }
-    .sell {
-        padding-right: 200px;
-    }
-    .sell button {
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-    }
-}
-/* Extra Large Devices (Large Desktops, greater than 1200px) 
-@media (min-width: 1200px) {
-    .ideal {
-        width: 650px;
-        top: 33%;
-        left: 10%;
-        line-height: 60px;
-    }
-    .ideal h1 {
-        font-size: 40px;
-    }
-    .detail {
-        font-size: 35px;
-    }
-    .downlaod {
-        width: 200px;
-        height: 45px;
-        font-size: 25px;
-    }
-    .heading {
-        font-size: 30px;
-        padding: 30px;
-    }
-    .feature {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .container {
-        width: 270px;
-        margin: 10px;
-    }
-    .sell {
-        padding-right: 200px;
-    }
-    .sell button {
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-    }
-}
-*/
-/*Footer Section*/
  .footer{
     margin-top: 40px;
     width: auto;
@@ -703,3 +446,163 @@ footer{
     border: 1px solid goldenrod;
     border-radius: 40px;
 }
+/* media */
+@media (max-width: 1200px) {
+    .feature .container, .card, .about-container > div, .footer > div {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .menu {
+        display: none;
+    }
+
+    nav .menu.active {
+        display: block;
+        position: absolute;
+        background-color: #333;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+    }
+
+    nav .menu li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    nav .dropdown-content {
+        position: static;
+    }
+
+    .feature .container, .card, .about-container > div, .footer > div {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px;
+    }
+
+    .feature .container, .card, .about-container > div, .footer > div {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+
+    .video video {
+        width: 100%;
+        height: auto;
+    }
+
+    .brand-container img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    .foot .first, .foot .second, .foot .third {
+        flex: 1 1 100%;
+        margin: 20px 0;
+    }
+}
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    nav {
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+        background-color: transparent;
+        box-shadow: none;
+        width: auto;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .arrow {
+        float: right;
+    }
+
+    .ideal {
+        padding: 80px 10px;
+    }
+
+    .ideal h1 {
+        font-size: 30px;
+    }
+
+    .ideal .detail {
+        font-size: 30px;
+    }
+
+    .ideal .download {
+        font-size: 20px;
+        padding: 12px 20px;
+    }
+
+.card {
+    width: calc(100% - 20px);
+}
+
+.card img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card div {
+    padding: 15px;
+}
+
+.card h2 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card h4 {
+    font-size: 16px;
+}
+
+.card-footer button {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+}
+
+
+
+
+
+
+
