@@ -1371,4 +1371,225 @@ background-color: rgba(255, 255, 255, 0.551);
     
     }
 
-
+    @media screen and (min-width: 1200px) and (max-width: 1280px) {
+        nav {
+            padding: 8px;
+        }
+        .logo {
+            font-size: 18px;
+            margin-left: 8px;
+        }
+        .menu li a {
+            font-size: 16px !important;
+        }
+        .menu li {
+            margin: 0;
+        }
+        .dropbtn {
+            font-size: 16px;
+        }
+        .dropdown-content {
+            font-size: 14px;
+            box-shadow: none;
+            border: 1px solid gold;
+            width: auto;
+        }
+        .arrow {
+            float: none;
+        }
+        .main {
+            background-position: right center;
+            height: 450px;
+            background-size: 750px;
+            text-align: center;
+        }
+        .ideal {
+            text-align: left;
+            line-height: 40px;
+            padding-right: 850px;
+            padding-bottom: 150px;
+        }
+        .ideal h1 {
+            font-size: 22px;
+        }
+        .ideal h2 {
+            font-size: 18px;
+        }
+        .ideal b {
+            font-size: 25px;
+        }
+        .ideal .download {
+            font-size: 13px;
+            width: 95px;
+        }
+        .feature {
+            padding-bottom: 5px;
+        }
+        .heading {
+            font-size: 24px;
+        }
+        .container p {
+            font-size: 12px;
+        }
+        .container h1 {
+            font-size: 17px;
+            line-height: 10px;
+        }
+        .container {
+            border-radius: 20px;
+            width: 180px;
+            height: 260px;
+            padding-bottom: 18px;
+        }
+        .container img {
+            height: 50px;
+            padding-left: 65px;
+            width: 50px;
+        }
+        .video {
+            padding-left: 140px;
+        }
+        .video video {
+            height: 280px;
+            margin-top: 35px;
+        }
+        .video h1 {
+            display: none;
+        }
+        .card {
+            height: 360px;
+            width: 250px;
+        }
+        .card img {
+            border-radius: 14px 14px 0 0;
+            height: 140px;
+            width: 250px;
+        }
+        .card div {
+            padding: 0;
+        }
+        .card h2 {
+            font-size: 22px;
+        }
+        .card p {
+            text-align: center;
+            font-size: 13px;
+        }
+        .card h4 {
+            padding-left: 90px;
+            font-size: 15px;
+        }
+        .card-footer button {
+            font-size: 13px;
+            width: 105px;
+        }
+        .offer {
+            background-size: 400px;
+            height: 300px;
+            padding-left: 0;
+            background-color: rgb(20, 20, 20);
+            background-image: url(./../Images/basket.jpg);
+        }
+        .sell img {
+            height: 55px;
+            padding-top: 18px;
+        }
+        .sell {
+            font-size: 11px;
+            padding-right: 25px;
+            text-align: right;
+            padding-top: 0;
+        }
+        .sell button {
+            width: 85px;
+            font-size: 12px;
+        }
+        .brand {
+            padding: 18px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        .brand h2 {
+            font-size: 23px;
+            text-align: left;
+        }
+        .brand-container {
+            justify-content: space-around;
+        }
+        .brand-container img {
+            height: 35px;
+            width: 35px;
+        }
+        .brand-container button {
+            height: 75px;
+            width: 115px;
+            cursor: pointer;
+        }
+        .brand-container button:hover {
+            background-color: rgba(255, 255, 255, 0.551);
+        }
+        .about {
+            height: 140px;
+            width: 800px;
+            padding-top: 8px;
+            margin-left: 8px;
+            margin-right: 5px;
+        }
+        .about-container {
+            font-size: 9px;
+        }
+        .about-container img {
+            height: 35px;
+            width: 35px;
+        }
+        .about h2 {
+            font-size: 13px;
+        }
+        .footer {
+            background-color: #a6e4d1;
+            height: 230px;
+            width: 900px;
+            padding: 0;
+            padding-top: 55px;
+        }
+        .footer a {
+            font-size: 14px;
+            padding: 0;
+        }
+        .second {
+            flex-grow: 0.5;
+            padding-left: 45px;
+        }
+        .second input {
+            width: 160px;
+            height: 28px;
+        }
+        .second button {
+            width: 130px;
+            padding: 0;
+            height: 38px;
+            font-size: 11px;
+        }
+        .third {
+            padding: 0;
+            font-size: 9px;
+        }
+        .first {
+            padding-left: 85px;
+        }
+        .footer h3 {
+            font-size: 9px;
+        }
+        .footer .first h3, .footer .second h3, .footer .third h3 {
+            font-size: 14px !important;
+        }
+        .footer .third p span {
+            font-size: 12px !important;
+        }
+        .footer .third p {
+            text-align: center;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+    
