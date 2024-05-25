@@ -580,7 +580,12 @@ footer{
         box-shadow: 1px 1px 10px 2px grey;
         display: inline-block;
     }
-
+ .f-card{
+    margin-top: 20px;
+ }
+ .s-card{
+    margin-top: 20px;
+ }
 
     .categories{
         margin-top: 20px;
