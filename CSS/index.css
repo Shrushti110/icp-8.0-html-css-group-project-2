@@ -484,37 +484,30 @@ footer{
     nav {
         padding: 10px;
     }
-    .menu {
-        display: none;
-        flex-direction: column;
-        align-items: stretch;
+    .logo{
+        font-size: 12px;
+    }
+    .menu li a {
+    font-size: 10px !important;
     }
     .menu li {
-        margin: 5px 0;
+        margin: 0px 0;
     }
     .logo {
         margin-left: 10px;
     }
-
+     .dropbtn{
+        font-size: 10px;
+     }
     .dropdown-content {
-        position: static;
-        display: none;
-        background-color: transparent;
+        font-size: 10px;
         box-shadow: none;
+        border-radius: 1px solid gold;
         width: auto;
     }
-    .dropdown:hover .dropdown-content {
-        display: none;
     }
-
-    .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-
     .arrow {
-        float: right;
+        float:none;
     }
      .main{
         background-image: none;
@@ -658,8 +651,7 @@ background-color: rgba(255, 255, 255, 0.551);
     height: 40px;
     width: 40px;
 }
-.about-container p{
-}
+
 .about h2{
     font-size: 14px;
 }
@@ -711,4 +703,4 @@ background-color: rgba(255, 255, 255, 0.551);
     padding-left: 10px;
     padding-right: 10px;
 }
-}
+
