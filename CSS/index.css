@@ -446,41 +446,9 @@ footer{
     border: 1px solid goldenrod;
     border-radius: 40px;
 }
-/* media */
-@media (max-width: 1200px) {
-    .feature .container, .card, .about-container > div, .footer > div {
-        flex: 1 1 45%;
-    }
-}
 
-@media (max-width: 768px) {
-    nav .menu {
-        display: none;
-    }
-
-    nav .menu.active {
-        display: block;
-        position: absolute;
-        background-color: #333;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: right;
-    }
-
-    nav .menu li {
-        display: block;
-        margin: 1rem 0;
-    }
-
-    nav .dropdown-content {
-        position: static;
-    }
-
-    .feature .container, .card, .about-container > div, .footer > div {
-        flex: 1 1 100%;
-    }
-}
+/* MEDIA */
+/* normal DEVIDE*/
 
 @media (max-width: 480px) {
     .main {
@@ -512,20 +480,18 @@ footer{
     }
 }
 /* Mobile Devices */
-@media only screen and (max-width: 767px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     nav {
         padding: 10px;
     }
-
     .menu {
+        display: none;
         flex-direction: column;
         align-items: stretch;
     }
-
     .menu li {
         margin: 5px 0;
     }
-
     .logo {
         margin-left: 10px;
     }
@@ -537,7 +503,6 @@ footer{
         box-shadow: none;
         width: auto;
     }
-
     .dropdown:hover .dropdown-content {
         display: none;
     }
@@ -551,93 +516,110 @@ footer{
     .arrow {
         float: right;
     }
-
+     .main{
+        background-image: none;
+        height: 500px;
+        text-align: center;
+     }
     .ideal {
-        padding: 80px 10px;
+        text-align: left;
+        line-height: 44px;
+        padding-right: 500px;
+        padding-bottom: 170px;
     }
-
     .ideal h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
-
-    .ideal .detail {
-        font-size: 30px;
-    }
-
-    .ideal .download {
+    .ideal h2{
         font-size: 20px;
-        padding: 12px 20px;
     }
-
-.card {
-    width: calc(100% - 20px);
-}
-
-.card img {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.card div {
-    padding: 15px;
-}
-
-.card h2 {
+    .ideal b {
+        font-size: 27px;
+    }
+    .ideal .downlaod { 
+        font-size: 14px;
+        width: 100px;
+    }
+    .feature{
+        padding-bottom: 5px;
+    }
+    /*CONTAINER*/
+    
+     .container p{
+        font-size: 14px;
+     }
+     .container h1{
+        font-size: 20px;
+        line-height: 10px;
+     }
+     .container{
+        border-radius: 20px;
+        width:230px;
+        height: 280px;
+        padding-bottom: 20px;
+     }
+     .container img{
+        height: 60px;
+        padding-left: 80px;
+        width: 60px;
+     }
+     /*VIDEO*/
+       
+     .video video {
+        height: 250px;
+        margin-top:40px;
+     }
+     .video h1{
+        display: none;
+     }
+    .card {
+        display: flex;
+        flex-direction: row;
+        height: 360px;
+      }
+    .card img {
+        border-radius: 14px 14px 0 0;
+        height: 120px;
+      } 
+      .card div {
+      padding: 0;
+      }
+     .card h2 {
     font-size: 20px;
-}
-
-.card p {
-    font-size: 14px;
-}
-
-.card h4 {
+     }
+    .card p {
+       text-align: center;
+       font-size: 14px;
+    }
+    .card h4 {
     font-size: 16px;
+     }
+   .card-footer button {
+    font-size: 14px;
+    width: 110px;
+}
+.offer{
+   background-size: 330px;
+   height: 300px;
+   height: 180;
+   background-color: rgb(20, 20, 20);
+   background-image: url(./../Images/basket.jpg);
+}
+.sell img{
+    height: 60px;
+}
+.sell{
+    font-size: 11px;
+    padding-right: 30px;
+    text-align: right;
+    padding-top: 0;
+}
+.sell button{
+    width: 90px;
+    font-size: 13px;
+}
 }
 
-.card-footer button {
-    font-size: 14px;
-    padding: 8px 16px;
-}
-}
 
 /* MEDIA QUERIES*?
 /* Small Devices */
-@media screen and ( min-width: 600px) {
-    
-    .main{
-        background-image: none;
-        height: 450px;
-    }
-    .ideal{
-        font-size: 13px;
-        text-align: center ;
-        line-height: 45px;
-        margin-top:170px;
-    }
-    .ideal .downlaod{
-       margin-left: 260px;
-       font-size: 16px;
-       width: 120px;
-    }
-    .ideal h1{
-        font-size: 23px;
-    }
-    .ideal b{
-        font-size: 28px;
-        letter-spacing: 2px;
-    }
-    .heading{
-        text-align: center;
-        font-size: 23px;
-    }
-}
-
-/* Normal Devices*/
-@media screen and (min-width:601px) and (max-width: 768px) {
-}
-
-/*Tablet Devices*/
-@media screen and (min-width:769px) and (max-width: 992px) {
-    
-}
-
