@@ -32,3 +32,11 @@ Throughout the development of CARA🌿, our team gained valuable insights and en
 - **Advanced CSS Techniques**: Learned to apply sophisticated CSS methods to create visually appealing layouts and animations.
 - **Code Organization**: Adopted best practices for organizing HTML and CSS code, enhancing maintainability and scalability.
 - **Collaborative Development**: Improved our ability to work collaboratively using version control systems like Git, facilitating better team coordination and project management.
+
+## Team
+
+- **Shrushti** - Project Lead: Oversaw the project development, coordinated team efforts, and ensured timely delivery of project milestones. Developed the Homepage.
+- **Suhas Dhawale** - Developed the Television page.
+- **Rahul Bhongade** - Developed the Camera page.
+- **Dipak Salunke** - Developed the Mobile Phone page.
+- **Sakshi Ganyarpawar** - Developed the Earphone page.
