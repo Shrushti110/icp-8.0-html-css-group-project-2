@@ -600,9 +600,44 @@ footer{
 }
 }
 
+/* MEDIA QUERIES*?
+/* Small Devices */
+@media screen and ( min-width: 600px) {
+    
+    .main{
+        background-image: none;
+        height: 450px;
+    }
+    .ideal{
+        font-size: 13px;
+        text-align: center ;
+        line-height: 45px;
+        margin-top:170px;
+    }
+    .ideal .downlaod{
+       margin-left: 260px;
+       font-size: 16px;
+       width: 120px;
+    }
+    .ideal h1{
+        font-size: 23px;
+    }
+    .ideal b{
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+    .heading{
+        text-align: center;
+        font-size: 23px;
+    }
+}
 
+/* Normal Devices*/
+@media screen and (min-width:601px) and (max-width: 768px) {
+}
 
-
-
-
+/*Tablet Devices*/
+@media screen and (min-width:769px) and (max-width: 992px) {
+    
+}
 
