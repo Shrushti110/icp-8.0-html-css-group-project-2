@@ -40,3 +40,11 @@ Throughout the development of CARA🌿, our team gained valuable insights and en
 - **Rahul Bhongade** - Developed the Camera page.
 - **Dipak Salunke** - Developed the Mobile Phone page.
 - **Sakshi Ganyarpawar** - Developed the Earphone page.
+
+## Contributors
+
+<a href="https://github.com/Shrushti110/icp-8.0-html-css-group-project-2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Shrushti110/icp-8.0-html-css-group-project-2" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
