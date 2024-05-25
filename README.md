@@ -43,8 +43,8 @@ Throughout the development of CARA🌿, our team gained valuable insights and en
 
 ## Contributors
 
-<a href="https://github.com/Shrushti110/icp-8.0-html-css-group-project-2/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Shrushti110/icp-8.0-html-css-group-project-2" />
+<a href="https://github.com/SuhasDhawale/icp-8.0-html-css-group-project-2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SuhasDhawale/icp-8.0-html-css-group-project-2" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
