@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="./../CSS/about.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./../CSS/login.css">
 </head>
 <body>
     <section>
@@ -32,16 +32,40 @@
            </ul>
         </nav>
         <section>
-    <section class="about">
-        <div class="container">
-            <h1 style="font-size: 25px; color: goldenrod;">About Us</h1>
-            <p>We at CARA🌿 are dedicated to providing you with the best electronic gadgets and accessories. With years of experience in the industry, we understand the needs and desires of our customers.</p>
-            <p>Our mission is to make your shopping experience seamless and enjoyable. We strive to offer a wide range of products at competitive prices while maintaining the highest standards of quality and customer service.<img src="./../Images/animated.jpg"></p>
-            <p>At CARA🌿, we value innovation and technology, which is why we continuously update our inventory to bring you the latest and most advanced gadgets on the market.</p>
-            <p>Whether you're looking for a new smartphone, laptop, camera, or any other electronic device, you can trust CARA🌿 to deliver exceptional products and exceptional service.</p>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <form class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input type="text" class="login__input" placeholder="User name / Email" required>
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input type="password" class="login__input" placeholder="Password">
+                    </div>
+                    <button class="button login__submit">
+                        <span class="button__text">Log In Now</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>				
+                </form>
+                <div class="social-login">
+                    
+                    <div class="social-icons">
+                        <a href="#" class="social-login__icon fab fa-instagram"></a>
+                        <a href="#" class="social-login__icon fab fa-facebook"></a>
+                        <a href="#" class="social-login__icon fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>		
         </div>
-    </section>
-    
+    </div>
     <section class="foot">
         <div class="footer">
             <div class="first">
@@ -73,11 +97,5 @@
            </div>
         </div>
     </section>
-
-    <footer class="last">
-        <div class="container">
-            <p>&copy; 2024 CARA🌿. All Rights Reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
