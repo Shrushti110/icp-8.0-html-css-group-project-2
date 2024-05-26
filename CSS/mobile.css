@@ -9,7 +9,7 @@ a {
     text-decoration: none;}
 .main {
     width: auto;
-    height: 90vh;
+    height: 8vh;
     position: relative;
 }
 nav {
@@ -467,6 +467,13 @@ footer{
     justify-content: space-evenly;
 }
 
+.top-heading{
+    text-align: center;
+    margin:0 0 20px 0;
+    width: 100%;
+    padding: 15px;
+    background-color:  rgb(103, 172, 160);
+}
 
 
 @media screen and (max-width: 600px) {
@@ -526,7 +533,14 @@ footer{
     }
 
     .f-card{
-        margin-top: 180px;
+        margin-top: 40px;
+    }
+    .top-heading{
+        text-align: center;
+        margin:160px 0 20px 0;
+        width: 100%;
+        padding: 15px;
+        background-color:  rgb(103, 172, 160);
     }
 
 .categories{
